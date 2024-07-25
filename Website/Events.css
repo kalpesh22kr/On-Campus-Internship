@@ -1,0 +1,165 @@
+/* body{
+    background-image: url("https://wallpaperaccess.com/full/1567666.png");
+} */
+
+
+.event{
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+    margin-left: 10%;
+    
+}
+.aq img{
+    height: 350px;
+    width: 500px;
+    margin-left: 25%;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px black solid;
+    margin-bottom: 50px;
+}
+.dr img{
+    height: 350px;
+    width: 500px;
+    margin-left: 10%;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 1px black solid;
+    margin-bottom: 50px;
+}
+.about-dr{
+   
+    
+    margin-left: 17%;
+    
+    width:55%;
+}
+.container-events{
+    margin-top: 5%
+    
+}
+.imgs{
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin-left: 10%;
+}
+.eventsname{
+    display: flex;
+    text-align: center;
+    margin-left: 16%;
+}
+.eventsnameA{
+    display: flex;
+    text-align: center;
+    margin-left: 27.5%;
+    margin-top: 20px;
+}
+button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    width:300px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+.two{
+    display: flex;
+    margin-left: 26%;
+}
+.eventsname a{
+    text-decoration: none;
+}
+
+.two a{
+    text-decoration: none;
+
+}
+.eventsnameA a{
+    text-decoration: none;
+}
+@media only screen and (max-width:700px) {
+    
+    .event{
+        flex-direction: column;
+
+    }
+    .aq img{
+        margin-left: 0;
+        margin-top: 15px;
+        margin-right: 20px;
+        width: 300px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: 1px solid black;
+        height: 200px;
+    }
+    .dr img{
+        margin-left: 0;
+        margin-top: 15px;
+        margin-right: 20px;
+        width: 300px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: 1px solid black;
+        height: 200px;
+    }
+    
+    .about-dr{
+        width: 350px;
+        margin: 20px;
+        margin-top: 30px;
+        margin-left: 7%;
+        
+    }
+    .eventsname{
+        align-items: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .eventsnameA{
+        align-items: center;
+        margin-top: 10%;
+        margin-left:0;
+        flex-direction: column;
+    }
+    button{
+        align-items: center;
+        margin-left: 0;
+    }
+  
+    .two{
+        flex-direction: column;
+        
+        
+        margin-left: 13%;
+    }
+    .eventsname a{
+        text-decoration: none;
+    }
+    
+    .two a{
+        text-decoration: none;
+    
+    }
+    .non{
+        margin-top: 15px;
+    }
+    .eventsnameA a{
+        text-decoration: none;
+    }
+  
+   
+   
+   }
+    
+

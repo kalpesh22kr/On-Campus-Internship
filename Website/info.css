@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+        
+    text-align: center;
+    margin-top: 35px;
+}
+  
+.imgs{
+
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width:500px){
+    .imgs{
+        width: 350px;
+        height: 450px;
+        margin-left:6%;
+    }
+    h1{
+        
+        text-align: center;
+    }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.notice{
+    
+    display:flex;
+    justify-content:flex-start;
+    /* background-image: url("https://wallpaperaccess.com/full/1567666.png"); */
+     background-color:white; 
+    overflow: hidden;
+    box-sizing: border-box;
+    height:40px;
+    margin-top: 5px;
+    
+}
+
+.notice_text{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
+    -webkit-text-stroke-color: #031B29;
+    -webkit-text-stroke-width:0.1px;
+    
+    white-space: nowrap;
+    padding: 0 6rem;
+    letter-spacing:1px;
+    animation: move-rtl 6000ms linear infinite;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+@keyframes move-rtl{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.new{
+    color:white;
+    background-color: red;
+    border-radius: 100px;
+    margin-right: 5px;
+    font-size: 20px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contact{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
